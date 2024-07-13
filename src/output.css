@@ -1356,6 +1356,11 @@ video {
     padding-left: 6rem;
     padding-right: 6rem;
   }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1414,5 +1419,10 @@ video {
   .lg\:px-52 {
     padding-left: 13rem;
     padding-right: 13rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
