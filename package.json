@@ -1,0 +1,15 @@
+{
+  "name": "bw-project-02-flexbox",
+  "version": "1.0.0",
+  "description": "This Is my 2nd guided project of Bytewise Fellowship, highly focused on flexbox and its concepts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

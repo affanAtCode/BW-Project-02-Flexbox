@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Bytewise Guided Project | Flexbox</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body class="sm:overflow-x-hidden w-full h-full">
+    <div class="flex flex-col items-center justify-center w-full h-full">
+      <!-- NAVBAR -->
+       <div
+        class="flex flex-row items-center justify-between bg-black w-full h-24"
+      >
+        <div class="flex flex-row items-center text-white ml-8">
+          <div class="text-white font-bold text-3xl">Flex</div>
+          <div class="text-gray-600 font-medium italic text-5xl font-serif">
+            Box
+          </div>
+        </div>
+        <div
+          class="text-white hidden items-center gap-6 mr-6 font-semibold  md:flex md:flex-row lg:flex lg:flex-row"
+        >
+          <div class="hover:text-red-600">Home</div>
+          <div class="hover:text-red-600">Projects</div>
+          <div class="hover:text-red-600">About us</div>
+          <div
+            class="bg-red-600 rounded-2xl h-10 w-28 text-center place-content-center hover:bg-white hover:text-red-600"
+          >
+            Contact us
+          </div>
+        </div>
+        <div
+          class="size-10 flex items-center mr-6 md:hidden lg:hidden"
+        >
+          <img
+            src="https://llewllew.github.io/ALLY-Design-Studio-Homepage/resources/menu.png"
+            alt="hamburger"
+          />
+        </div>
+      </div> 
+
+      <!-- HERO SECTION -->
+      <div
+        class="py-32 px-10 text-center w-full opacity-85 text-5xl text-white font-serif font-medium"
+        style="
+          background-image: url(https://llewllew.github.io/ALLY-Design-Studio-Homepage/resources/cover.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        "FlexBox Layout Module, makes it easier to design flexible responsive
+        layout structure without using float or positioning."
+      </div>
+
+      <!-- PROJECTS SECTION -->
+      <div class="flex flex-col mt-16 w-full justify-around">
+        <div class="text-4xl font-semibold font-serif px-5 lg:px-52 md:px-24">
+          Projects
+        </div>
+
+        <div class="flex flex-row pt-8 px-5 lg:px-60 md:px-32 gap-1">
+          <div
+            class="relative flex-grow-0 h-80 w-72 border hover:opacity-60  hover:border-gray-600 "
+            style="
+              background-image: url(https://llewllew.github.io/ALLY-Design-Studio-Homepage/resources/goldenapple.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div
+              class="w-full text-white bg-black opacity-85 absolute bottom-0 py-8 pl-10 "
+            >
+              <div class="text-sm text-opacity-65">Website</div>
+              <div class="text-xl font-semibold ml-2">Cosmetica</div>
+            </div>
+          </div>
+          <div
+            class="relative flex-grow h-80 w-72 border hover:opacity-60  hover:border-gray-600"
+            style="
+              background-image: url(https://llewllew.github.io/ALLY-Design-Studio-Homepage/resources/rostov.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div
+              class="w-full text-white bg-black opacity-85 absolute bottom-0 py-8 pl-10"
+            >
+              <div class="text-sm text-opacity-65">Website</div>
+              <div class="text-xl font-semibold ml-2">Book Your Trip</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-row gap-1 pt-1 px-5 lg:px-60 md:px-32">
+          <div
+            class="relative flex-grow h-80 w-72 border hover:opacity-60  hover:border-gray-600"
+            style="
+              background-image: url(https://llewllew.github.io/ALLY-Design-Studio-Homepage/resources/maliy.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div
+              class="w-full text-white bg-black opacity-85 absolute bottom-0 py-8 pl-10"
+            >
+              <div class="text-sm text-opacity-65">Website</div>
+              <div class="text-xl font-semibold ml-2">My Blogspot</div>
+            </div>
+          </div>
+          <div
+            class="relative flex-grow-0 h-80 w-72 border hover:opacity-60  hover:border-gray-600"
+            style="
+              background-image: url(https://llewllew.github.io/ALLY-Design-Studio-Homepage/resources/andybookstore.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div
+              class="w-full text-white bg-black opacity-85 absolute bottom-0 py-8 pl-10"
+            >
+              <div class="text-sm text-opacity-65">Website</div>
+              <div class="text-xl font-semibold ml-2">My Liberaria</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- ABOUT US SECTION -->
+      <div class="flex flex-row justify-between w-full mt-12">
+        <div class=" flex flex-col w-full gap-6 justify-center items-center py-10"> 
+            <div class="text-4xl font-semibold font-serif"> Contacts</div>
+            <div class="ml-2 text-lg flex flex-col gap-3">
+                <div>ABC Street, City, Country</div>
+                <div>123-456-789</div>
+                <div> <a href="mailto: affanatweb@gmail.com">affanAtWeb@gmail.com</a></div>
+            </div>
+        </div>
+        <div class="flex w-full py-10 justify-start items-center"> <img class="h-72 w-60 md:w-80 lg:w-96" src="https://llewllew.github.io/ALLY-Design-Studio-Homepage/resources/map.JPG" alt="Map"> </div>
+      </div>
+
+        <!-- FOOTER SECTION -->
+      <div class="bg-black w-full h-6 text-white text-center"> © <a href="https://github.com/affanAtCode/BW-Project-02-Flexbox"> affanAtCode </a> | Photos from unsplash.com</div>
+    </div>
+  </body>
+</html>
